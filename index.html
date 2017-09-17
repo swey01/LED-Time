@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>CSS3+HTML5实现漂亮LED数字时钟</title>
+	<link href="assets/css/style.css" rel="stylesheet" />
+	<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+</head>
+
+<body>
+
+	<div id="clock" class="light">
+		<div class="display">
+			<div class="digits"></div>
+		</div>
+	</div>
+
+	<audio id="alarm-ring" preload>
+		<source src="assets/audio/ticktac.mp3" type="audio/mpeg" />
+		<source src="assets/audio/ticktac.ogg" type="audio/ogg" />
+	</audio>
+
+	<!-- JavaScript Includes -->
+	<script src="assets/js/jquery-1.9.1.min.js"></script>
+	<script src="assets/js/moment.min.js"></script>
+	<script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
